@@ -68,7 +68,8 @@ const tabela = new CharTableJs([
 
 Inserindo as linhas usando `array`
 ```javascript
-// Ao inserir as linhas com array, a ordem das informações devem seguir a ordem em que as colunas foram definidas
+// Ao inserir as linhas com array, a ordem das informações
+// devem seguir a ordem em que as colunas foram definidas
 tabela.row([1, "José Henrrique dos Santos", 29, 12000])
 tabela.row([2, "Maria Pereira de Amargos", 8, 20.40])
 tabela.row([3, "Emanuel Borgex", 18, 522.21])
